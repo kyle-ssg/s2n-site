@@ -1,0 +1,21 @@
+.project {
+  &__item-title {
+    &--larger {
+      font-size: 4em;
+    }
+  }
+  &__item-subtitle {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 67em) {
+  //.project {
+  //  &__item-title {
+  //    padding-left: .25em;
+  //  }
+  //  &__item-subtitle {
+  //    padding-left: .75em;
+  //  }
+  //}
+}
