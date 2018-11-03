@@ -1,48 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Shared React</title>
-    <link rel="shortcut icon" href="/static/images/favicon.ico">
-    <!--This is inserted by webpack in production-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Signal to Noise | Oliver Wilshen and Niall Quinn</title>
+    <meta name="description" content="A Masonry-powered grid layout with a motion hover effect on the grid items and a scrollable content view." />
+    <meta name="keywords" content="sound art, signal to noise, installation, remap, plotter, analogue tape glove, sonophore, art, media art, design" />
+    <meta name="author" content="Signal to Noise" />
+    <link rel="shortcut icon" href="favicon.ico">
     <script src="/build/main.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
     <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
-
 </head>
-<body class="loading">
-<svg class="hidden">
-    <symbol id="icon-arrow" viewBox="0 0 24 24">
-        <title>arrow</title>
-        <polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
-    </symbol>
-    <symbol id="icon-drop" viewBox="0 0 24 24">
-        <title>drop</title>
-        <path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
-    </symbol>
-    <svg id="icon-github" viewBox="0 0 33 33">
-        <title>github</title>
-        <path d="M16.608.455C7.614.455.32 7.748.32 16.745c0 7.197 4.667 13.302 11.14 15.456.815.15 1.112-.353 1.112-.785 0-.386-.014-1.411-.022-2.77-4.531.984-5.487-2.184-5.487-2.184-.741-1.882-1.809-2.383-1.809-2.383-1.479-1.01.112-.99.112-.99 1.635.115 2.495 1.679 2.495 1.679 1.453 2.489 3.813 1.77 4.741 1.353.148-1.052.569-1.77 1.034-2.177-3.617-.411-7.42-1.809-7.42-8.051 0-1.778.635-3.233 1.677-4.371-.168-.412-.727-2.069.16-4.311 0 0 1.367-.438 4.479 1.67a15.602 15.602 0 0 1 4.078-.549 15.62 15.62 0 0 1 4.078.549c3.11-2.108 4.475-1.67 4.475-1.67.889 2.242.33 3.899.163 4.311C26.37 12.66 27 14.115 27 15.893c0 6.258-3.809 7.635-7.437 8.038.584.503 1.105 1.497 1.105 3.017 0 2.177-.02 3.934-.02 4.468 0 .436.294.943 1.12.784 6.468-2.159 11.131-8.26 11.131-15.455 0-8.997-7.294-16.29-16.291-16.29"></path>
-    </svg>
-    <svg id="icon-arrowup" viewBox="0 0 49 46">
-        <title>arrow up</title>
-        <path d="M49 45.946H0L24.5.054z"></path>
-    </svg>
-</svg>
+<body>
 <main>
+
     <div class="container">
-        <nav class="menu menu--adsila">
+        <nav class="menu menu--adsila" style="padding-top: 1em;">
             <div class="brand">
                 <a href="/">
                     <img src="img/S2N_Logo_Vector01.svg"/>
                 </a>
             </div>
             <div class="navigation-1">
-                <a class="menu__item" href="index-2.html">
-                    <span class="menu__item-name">Works</span>
+                <a class="menu__item" href="/">
+                    <span class="menu__item-name">Projects</span>
                 </a>
                 <a class="menu__item" href="about.html">
                     <span class="menu__item-name">About</span>
@@ -53,134 +34,286 @@
             </div>
         </nav>
     </div>
-    <div class="container">
-        <div class="wrapper">
-            <div class="box a">
-                <img src="img/remap-1.jpg" />
-                <h4>REMAP</h4>
-                <p>Prototype electro-mechanical sound device</p>
-            </div>
-            <div class="box a">
-                <img src="img/RecoderText.jpg" />
-                <h4>Recoder</h4>
-                <p>Autonomous electro-mechanical sonic mapping device</p>
-            </div>
-            <div class="box a">
-                <img src="img/glitch-objects-1.png" />
-            </div>
-            <div class="box a">
-                <img src="img/sonophore.jpg" />
-            </div>
-            <div class="box a">
-                <img src="img/atg-1.jpg" />
-            </div>
-            <div class="box a">
-                <img src="img/denoted-1.jpg" />
-            </div>
-            <div class="box a">
-                <img src="img/denoted-1.jpg" />
-            </div>
+
+    <div class="grid-wrap">
+        <div class="grid">
+            <a href="#" class="grid__item">
+                <div class="grid__item-bg"></div>
+                <div class="grid__item-wrap">
+                    <img class="grid__item-img" src="img/remap-2.jpg" alt="Some image" />
+                </div>
+                <h3 class="grid__item-title">REMAP</h3>
+                <h4 class="grid__item-number">01</h4>
+            </a>
+            <a href="#" class="grid__item">
+                <div class="grid__item-bg"></div>
+                <div class="grid__item-wrap">
+                    <img class="grid__item-img" src="img/RecoderText.jpg" alt="Some image" />
+                </div>
+                <h3 class="grid__item-title">Recoder</h3>
+                <h4 class="grid__item-number">02</h4>
+            </a>
+            <a href="#" class="grid__item">
+                <div class="grid__item-bg"></div>
+                <div class="grid__item-wrap">
+                    <img class="grid__item-img" src="img/glitch-objects-1.png" alt="Some image" />
+                </div>
+                <h3 class="grid__item-title">Glitch Objects</h3>
+                <h4 class="grid__item-number">03</h4>
+            </a>
+            <a href="#" class="grid__item">
+                <div class="grid__item-bg"></div>
+                <div class="grid__item-wrap">
+                    <img class="grid__item-img" src="img/ATG_02.JPG" alt="Some image" />
+                </div>
+                <h3 class="grid__item-title">Analogue Tape Glove</h3>
+                <h4 class="grid__item-number">06</h4>
+            </a>
+            <a href="#" class="grid__item">
+                <div class="grid__item-bg"></div>
+                <div class="grid__item-wrap">
+                    <img class="grid__item-img" src="img/pxl.jpg" alt="Some image" />
+                </div>
+                <h3 class="grid__item-title">PXL</h3>
+                <h4 class="grid__item-number">04</h4>
+            </a>
+            <a href="#" class="grid__item">
+                <div class="grid__item-bg"></div>
+                <div class="grid__item-wrap">
+                    <img class="grid__item-img" src="img/sonophore.jpg" alt="Some image" />
+                </div>
+                <h3 class="grid__item-title">Sonophore</h3>
+                <h4 class="grid__item-number">05</h4>
+            </a>
+            <a href="#" class="grid__item">
+                <div class="grid__item-bg"></div>
+                <div class="grid__item-wrap">
+                    <img class="grid__item-img" src="img/ATG_02.JPG" alt="Some image" />
+                </div>
+                <h3 class="grid__item-title">Analogue Tape Glove</h3>
+                <h4 class="grid__item-number">06</h4>
+            </a>
+            <a href="#" class="grid__item">
+                <div class="grid__item-bg"></div>
+                <div class="grid__item-wrap">
+                    <img class="grid__item-img" src="img/8.jpg" alt="Some image" />
+                </div>
+                <h3 class="grid__item-title">Transcendence</h3>
+                <h4 class="grid__item-number">KL7</h4>
+            </a>
+            <a href="#" class="grid__item">
+                <div class="grid__item-bg"></div>
+                <div class="grid__item-wrap">
+                    <img class="grid__item-img" src="img/9.jpg" alt="Some image" />
+                </div>
+                <h3 class="grid__item-title">Loosing my mind</h3>
+                <h4 class="grid__item-number">UY6</h4>
+            </a>
+            <a href="#" class="grid__item">
+                <div class="grid__item-bg"></div>
+                <div class="grid__item-wrap">
+                    <img class="grid__item-img" src="img/10.jpg" alt="Some image" />
+                </div>
+                <h3 class="grid__item-title">Holding your breath</h3>
+                <h4 class="grid__item-number">OP2</h4>
+            </a>
+            <a href="#" class="grid__item">
+                <div class="grid__item-bg"></div>
+                <div class="grid__item-wrap">
+                    <img class="grid__item-img" src="img/11.jpg" alt="Some image" />
+                </div>
+                <h3 class="grid__item-title">Making the best of it</h3>
+                <h4 class="grid__item-number">EC5</h4>
+            </a>
+            <a href="#" class="grid__item">
+                <div class="grid__item-bg"></div>
+                <div class="grid__item-wrap">
+                    <img class="grid__item-img" src="img/12.jpg" alt="Some image" />
+                </div>
+                <h3 class="grid__item-title">Haunted Blessings</h3>
+                <h4 class="grid__item-number">2VX</h4>
+            </a>
         </div>
-    </div>
+    </div><!-- /grid-wrap -->
+
     <div class="content">
-        <!--<div class="sidebar">-->
-        <!--<nav class="menu">-->
-        <!--<a href="#" class="menu__item menu__item&#45;&#45;current">Agency</a>-->
-        <!--<a href="#" class="menu__item">Story</a>-->
-        <!--<a href="#" class="menu__item">Contact</a>-->
-        <!--</nav>-->
-        <!--<a class="pater" href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=17972_5_1_20">-->
-        <!--<p class="pater__description">Divi is powered by the Divi Builder, an insanely fast and incredibly intuitive front end editor like nothing you have seen before. It will change the way you build websites forever. <strong>Learn more</strong></p>-->
-        <!--<div class="pater__img"><div class="pater__img-inner"></div></div>-->
-        <!--</a>-->
-        <!--</div>-->
-        <!--<div class="slideshow">-->
-        <!--<div class="slideshow__item slideshow__item&#45;&#45;featured">-->
-        <!--<div class="slideshow__item-img slideshow__item-img&#45;&#45;larger">-->
-        <!--<div class="slideshow__item-img-inner" style="background-image: url(img/1.jpg);"></div>-->
-        <!--</div>-->
-        <!--<span class="slideshow__item-number">#1</span>-->
-        <!--<div class="slideshow__item-titlewrap slideshow__item-titlewrap&#45;&#45;featured">-->
-        <!--<h3 class="slideshow__item-title slideshow__item-title&#45;&#45;larger">Werry &amp; Smith</h3>-->
-        <!--<p class="slideshow__item-subtitle">Technical portfolio design and implementation</p>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--<div class="slideshow__item">-->
-        <!--<div class="slideshow__item-img">-->
-        <!--<div class="slideshow__item-img-inner" style="background-image: url(img/2.jpg);"></div>-->
-        <!--</div>-->
-        <!--<span class="slideshow__item-number">#2</span>-->
-        <!--<div class="slideshow__item-titlewrap">-->
-        <!--<h3 class="slideshow__item-title">Gimpson Technology</h3>-->
-        <!--<p class="slideshow__item-subtitle">Future technology assessment and consultation</p>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--<nav class="slideshow__nav">-->
-        <!--<button class="slideshow__nav-item slideshow__nav-item&#45;&#45;current">1</button>-->
-        <!--<button class="slideshow__nav-item">2</button>-->
-        <!--<button class="slideshow__nav-item">3</button>-->
-        <!--<button class="slideshow__nav-item">4</button>-->
-        <!--<button class="slideshow__nav-item">5</button>-->
-        <!--<button class="slideshow__nav-item">6</button>-->
-        <!--<button class="slideshow__nav-item">7</button>-->
-        <!--<button class="slideshow__nav-item">8</button>-->
-        <!--</nav>-->
-        <!--</div>-->
-    </div>
-    <div class="intro">
-        <!-- This element animates: -->
-        <div class="intro__box"></div>
-        <a class="intro__logo">
-            <svg class="icon icon--arrowup"><use xlink:href="#icon-arrowup"></use></svg>
-        </a>
-        <div class="intro__title-wrap">
-            <h1 class="intro__title animatable">
-                <img src="img/S2N_Logo_Vector01.svg"/>
-            </h1>
-            <div class="intro__subtitle-wrap animatable">
-                <h3 class="intro__subtitle">Collapsing Logo Effect</h3>
-                <p class="intro__info">Inspired by <a href="https://experience.practicalvr.com/">practicalvr</a></p>
+        <div class="content__item">
+            <div class="content__item-intro">
+                <img class="content__item-img" src="img/remap-2.jpg" alt="Some image" />
+                <h2 class="content__item-title"></h2>
             </div>
-            <div class="codrops-links animatable">
-                <nav class="menu menu--adsila">
-                    <div class="navigation-2">
-                        <a class="menu__item" href="#">
-                            <span class="menu__item-name">Works</span>
-                        </a>
-                        <a class="menu__item" href="#">
-                            <span class="menu__item-name">About</span>
-                        </a>
-                        <a class="menu__item" href="#">
-                            <span class="menu__item-name">Contact</span>
-                        </a>
-                    </div>
-                </nav>
+            <h3 class="content__item-subtitle project__item-title project__item-title--larger">REMAP: Roland Electro-Mechanical Audio Plotter</h3>
+            <div class="container-full">
+                <div class="item item__1">
+                    <img class="img-responsive" src="../img/remap-1.jpg"/>
+                </div>
+                <div class="item item__2">
+
+                    <!--<h3 class="project__item-title project__item-title&#45;&#45;larger">REMAP</h3>-->
+                    <!--<p class="project__item-subtitle">2015</p>-->
+
+                    <p>This prototype electro-mechanical sound device is based on the Roland DXY pen plotter, a discontinued printing technology of the 1980s, which is combined with audio cassette tape technology in order to playback prerecorded ‘found’ sound recordings from a magnetically encoded audio tape surface. The resulting installation is a multi-temporal assemblage of these marginalised technologies, a hybrid sonic drawing device able to recall and explore archival media. Within these recordings, existing narratives are disrupted and fragmented, straying from chronological order into non-linearity. This draws on analogies to both the device’s merged hardware assembly and to the ‘media archaeological’ interweaving of media timescales and histories.</p>
+
+                </div>
             </div>
-            <a class="intro__enter animatable">Enter</a>
-        </div>
-        <!--<div class="intro__content intro__content&#45;&#45;second animatable">-->
-        <!--<h3 class="intro__content-title animatable">Philosophy</h3>-->
-        <!--<p class="intro__content-text animatable">Banjo ethical readymade, microdosing subway tile pinterest glossier put a bird on it retro direct trade blog tumeric wayfarers mustache</p>-->
-        <!--<p class="intro__content-text animatable">Thundercats hella sartorial occupy portland DIY raclette mlkshk poke DIY chambray franzen tattooed thundercats master</p>-->
-        <!--</div>-->
 
+            <div class="container">
+                <div class="align-center">
+                    <iframe class="mt-large mb-large" src="https://player.vimeo.com/video/173083545" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
 
+            <div class="text-block">
+                <p>The REMAP project engages with obsolete media artefacts and technologies, with an intention to use such past mediatic devices to help critique the impact of current globalised digital and technological consumerist culture. It seeks to explore the notion ‘Zombie Media’ (Parikka/Hertz), ‘the living dead of media culture’, an accumulated mass of discarded waste electronics and a continued physical existence beyond obsolescence.</p>
+            </div>
 
-
-
-        <div class="intro__content intro__content--forth animatable">
-            <h3 class="intro__content-title animatable">About</h3>
-            <p class="intro__content-text animatable">We are a quadruple award winning hyper active super duper cryptocurrency consultation and technology assessment firm that will help you understand what's going on in the present and future of finances</p>
-        </div>
-        <div class="intro__location animatable">9529 Vernon Court, New York, NY 10027</div>
-        <div class="intro__social animatable">
-            <a href="https://www.instagram.com/codropsss" class="intro__social-item">Instagram</a>
-            <a href="https://twitter.com/codrops" class="intro__social-item">Twitter</a>
-        </div>
-        <a class="intro__github animatable" href="https://github.com/codrops/CollapsingLogo/" title="Find this project on GitHub">GitHub</a>
+            <!--<div class="content__item-text">-->
+                <!--<p>When I was in the islands nearly a generation ago, I was acquainted with a young American couple who had among their belongings an attractive little son of the age of seven—attractive but not practicably companionable with me, because he knew no English. He had played from his birth with the little Kanakas on his father’s plantation, and had preferred their language and would learn no other. The family removed to America a month after I arrived in the islands, and straightway the boy began to lose his Kanaka and pick up English. By the time he was twelve he hadn’t a word of Kanaka left; the language had wholly departed from his tongue and from his comprehension. Nine years later, when he was twenty-one, I came upon the family in one of the lake towns of New York, and the mother told me about an adventure which her son had been having. By trade he was now a professional diver. A passenger boat had been caught in a storm on the lake, and had gone down, carrying her people with her. A few days later the young diver descended, with his armor on, and entered the berth-saloon of the boat, and stood at the foot of the companionway, with his hand on the rail, peering through the dim water. Presently something touched him on the shoulder, and he turned and found a dead man swaying and bobbing about him and seemingly inspecting him inquiringly. He was paralyzed with fright.</p>-->
+                <!--<p>His entry had disturbed the water, and now he discerned a number of dim corpses making for him and wagging their heads and swaying their bodies like sleepy people trying to dance. His senses forsook him, and in that condition he was drawn to the surface. He was put to bed at home, and was soon very ill. During some days he had seasons of delirium which lasted several hours at a time; and while they lasted he talked Kanaka incessantly and glibly; and Kanaka only. He was still very ill, and he talked to me in that tongue; but I did not understand it, of course. The doctor-books tell us that cases like this are not uncommon. Then the doctors ought to study the cases and find out how to multiply them. Many languages and things get mislaid in a person’s head, and stay mislaid for lack of this remedy.</p>-->
+                <!--<p>Several of our passengers belonged in Honolulu, and these were sent ashore; but nobody could go ashore and return. There were people on shore who were booked to go with us to Australia, but we could not receive them; to do it would cost us a quarantine-term in Sydney. They could have escaped the day before, by ship to San Francisco; but the bars had been put up, now, and they might have to wait weeks before any ship could venture to give them a passage any whither. And there were hardships for others. An elderly lady and her son, recreation-seekers from Massachusetts, had wandered westward, further and further from home, always intending to take the return track, but always concluding to go still a little further; and now here they were at anchor before Honolulu positively their last westward-bound indulgence—they had made up their minds to that—but where is the use in making up your mind in this world? It is usually a waste of time to do it. These two would have to stay with us as far as Australia. Then they could go on around the world, or go back the way they had come; the distance and the accommodations and outlay of time would be just the same, whichever of the two routes they might elect to take. Think of it: a projected excursion of five hundred miles gradually enlarged, without any elaborate degree of intention, to a possible twenty-four thousand. However, they were used to extensions by this time, and did not mind this new one much.</p>-->
+            <!--</div>-->
+        </div><!-- /content__item -->
+        <div class="content__item">
+            <div class="content__item-intro">
+                <img class="content__item-img" src="img/RecoderText.jpg" alt="Some image" />
+                <h2 class="content__item-title">Recoder</h2>
+            </div>
+            <h3 class="content__item-subtitle">Autonomous electro-mechanical sonic mapping device</h3>
+            <div class="content__item-text">
+                <p>When I was in the islands nearly a generation ago, I was acquainted with a young American couple who had among their belongings an attractive little son of the age of seven—attractive but not practicably companionable with me, because he knew no English. He had played from his birth with the little Kanakas on his father’s plantation, and had preferred their language and would learn no other. The family removed to America a month after I arrived in the islands, and straightway the boy began to lose his Kanaka and pick up English. By the time he was twelve he hadn’t a word of Kanaka left; the language had wholly departed from his tongue and from his comprehension. Nine years later, when he was twenty-one, I came upon the family in one of the lake towns of New York, and the mother told me about an adventure which her son had been having. By trade he was now a professional diver. A passenger boat had been caught in a storm on the lake, and had gone down, carrying her people with her. A few days later the young diver descended, with his armor on, and entered the berth-saloon of the boat, and stood at the foot of the companionway, with his hand on the rail, peering through the dim water. Presently something touched him on the shoulder, and he turned and found a dead man swaying and bobbing about him and seemingly inspecting him inquiringly. He was paralyzed with fright.</p>
+                <p>His entry had disturbed the water, and now he discerned a number of dim corpses making for him and wagging their heads and swaying their bodies like sleepy people trying to dance. His senses forsook him, and in that condition he was drawn to the surface. He was put to bed at home, and was soon very ill. During some days he had seasons of delirium which lasted several hours at a time; and while they lasted he talked Kanaka incessantly and glibly; and Kanaka only. He was still very ill, and he talked to me in that tongue; but I did not understand it, of course. The doctor-books tell us that cases like this are not uncommon. Then the doctors ought to study the cases and find out how to multiply them. Many languages and things get mislaid in a person’s head, and stay mislaid for lack of this remedy.</p>
+                <p>Several of our passengers belonged in Honolulu, and these were sent ashore; but nobody could go ashore and return. There were people on shore who were booked to go with us to Australia, but we could not receive them; to do it would cost us a quarantine-term in Sydney. They could have escaped the day before, by ship to San Francisco; but the bars had been put up, now, and they might have to wait weeks before any ship could venture to give them a passage any whither. And there were hardships for others. An elderly lady and her son, recreation-seekers from Massachusetts, had wandered westward, further and further from home, always intending to take the return track, but always concluding to go still a little further; and now here they were at anchor before Honolulu positively their last westward-bound indulgence—they had made up their minds to that—but where is the use in making up your mind in this world? It is usually a waste of time to do it. These two would have to stay with us as far as Australia. Then they could go on around the world, or go back the way they had come; the distance and the accommodations and outlay of time would be just the same, whichever of the two routes they might elect to take. Think of it: a projected excursion of five hundred miles gradually enlarged, without any elaborate degree of intention, to a possible twenty-four thousand. However, they were used to extensions by this time, and did not mind this new one much.</p>
+            </div>
+        </div><!-- /content__item -->
+        <div class="content__item">
+            <div class="content__item-intro">
+                <img class="content__item-img" src="img/pxl.jpg" alt="Some image" />
+                <h2 class="content__item-title">PXL</h2>
+            </div>
+            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
+            <div class="content__item-text">
+                <p>When I was in the islands nearly a generation ago, I was acquainted with a young American couple who had among their belongings an attractive little son of the age of seven—attractive but not practicably companionable with me, because he knew no English. He had played from his birth with the little Kanakas on his father’s plantation, and had preferred their language and would learn no other. The family removed to America a month after I arrived in the islands, and straightway the boy began to lose his Kanaka and pick up English. By the time he was twelve he hadn’t a word of Kanaka left; the language had wholly departed from his tongue and from his comprehension. Nine years later, when he was twenty-one, I came upon the family in one of the lake towns of New York, and the mother told me about an adventure which her son had been having. By trade he was now a professional diver. A passenger boat had been caught in a storm on the lake, and had gone down, carrying her people with her. A few days later the young diver descended, with his armor on, and entered the berth-saloon of the boat, and stood at the foot of the companionway, with his hand on the rail, peering through the dim water. Presently something touched him on the shoulder, and he turned and found a dead man swaying and bobbing about him and seemingly inspecting him inquiringly. He was paralyzed with fright.</p>
+                <p>His entry had disturbed the water, and now he discerned a number of dim corpses making for him and wagging their heads and swaying their bodies like sleepy people trying to dance. His senses forsook him, and in that condition he was drawn to the surface. He was put to bed at home, and was soon very ill. During some days he had seasons of delirium which lasted several hours at a time; and while they lasted he talked Kanaka incessantly and glibly; and Kanaka only. He was still very ill, and he talked to me in that tongue; but I did not understand it, of course. The doctor-books tell us that cases like this are not uncommon. Then the doctors ought to study the cases and find out how to multiply them. Many languages and things get mislaid in a person’s head, and stay mislaid for lack of this remedy.</p>
+                <p>Several of our passengers belonged in Honolulu, and these were sent ashore; but nobody could go ashore and return. There were people on shore who were booked to go with us to Australia, but we could not receive them; to do it would cost us a quarantine-term in Sydney. They could have escaped the day before, by ship to San Francisco; but the bars had been put up, now, and they might have to wait weeks before any ship could venture to give them a passage any whither. And there were hardships for others. An elderly lady and her son, recreation-seekers from Massachusetts, had wandered westward, further and further from home, always intending to take the return track, but always concluding to go still a little further; and now here they were at anchor before Honolulu positively their last westward-bound indulgence—they had made up their minds to that—but where is the use in making up your mind in this world? It is usually a waste of time to do it. These two would have to stay with us as far as Australia. Then they could go on around the world, or go back the way they had come; the distance and the accommodations and outlay of time would be just the same, whichever of the two routes they might elect to take. Think of it: a projected excursion of five hundred miles gradually enlarged, without any elaborate degree of intention, to a possible twenty-four thousand. However, they were used to extensions by this time, and did not mind this new one much.</p>
+            </div>
+        </div><!-- /content__item -->
+        <div class="content__item">
+            <div class="content__item-intro">
+                <img class="content__item-img" src="img/ATG_02.JPG" alt="Some image" />
+                <h2 class="content__item-title"></h2>
+            </div>
+            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
+            <div class="content__item-text">
+                <p>When I was in the islands nearly a generation ago, I was acquainted with a young American couple who had among their belongings an attractive little son of the age of seven—attractive but not practicably companionable with me, because he knew no English. He had played from his birth with the little Kanakas on his father’s plantation, and had preferred their language and would learn no other. The family removed to America a month after I arrived in the islands, and straightway the boy began to lose his Kanaka and pick up English. By the time he was twelve he hadn’t a word of Kanaka left; the language had wholly departed from his tongue and from his comprehension. Nine years later, when he was twenty-one, I came upon the family in one of the lake towns of New York, and the mother told me about an adventure which her son had been having. By trade he was now a professional diver. A passenger boat had been caught in a storm on the lake, and had gone down, carrying her people with her. A few days later the young diver descended, with his armor on, and entered the berth-saloon of the boat, and stood at the foot of the companionway, with his hand on the rail, peering through the dim water. Presently something touched him on the shoulder, and he turned and found a dead man swaying and bobbing about him and seemingly inspecting him inquiringly. He was paralyzed with fright.</p>
+                <p>His entry had disturbed the water, and now he discerned a number of dim corpses making for him and wagging their heads and swaying their bodies like sleepy people trying to dance. His senses forsook him, and in that condition he was drawn to the surface. He was put to bed at home, and was soon very ill. During some days he had seasons of delirium which lasted several hours at a time; and while they lasted he talked Kanaka incessantly and glibly; and Kanaka only. He was still very ill, and he talked to me in that tongue; but I did not understand it, of course. The doctor-books tell us that cases like this are not uncommon. Then the doctors ought to study the cases and find out how to multiply them. Many languages and things get mislaid in a person’s head, and stay mislaid for lack of this remedy.</p>
+                <p>Several of our passengers belonged in Honolulu, and these were sent ashore; but nobody could go ashore and return. There were people on shore who were booked to go with us to Australia, but we could not receive them; to do it would cost us a quarantine-term in Sydney. They could have escaped the day before, by ship to San Francisco; but the bars had been put up, now, and they might have to wait weeks before any ship could venture to give them a passage any whither. And there were hardships for others. An elderly lady and her son, recreation-seekers from Massachusetts, had wandered westward, further and further from home, always intending to take the return track, but always concluding to go still a little further; and now here they were at anchor before Honolulu positively their last westward-bound indulgence—they had made up their minds to that—but where is the use in making up your mind in this world? It is usually a waste of time to do it. These two would have to stay with us as far as Australia. Then they could go on around the world, or go back the way they had come; the distance and the accommodations and outlay of time would be just the same, whichever of the two routes they might elect to take. Think of it: a projected excursion of five hundred miles gradually enlarged, without any elaborate degree of intention, to a possible twenty-four thousand. However, they were used to extensions by this time, and did not mind this new one much.</p>
+            </div>
+        </div><!-- /content__item -->
+        <div class="content__item">
+            <div class="content__item-intro">
+                <img class="content__item-img" src="img/pxl.jpg" alt="Some image" />
+                <h2 class="content__item-title">PXL</h2>
+            </div>
+            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
+            <div class="content__item-text">
+                <p>When I was in the islands nearly a generation ago, I was acquainted with a young American couple who had among their belongings an attractive little son of the age of seven—attractive but not practicably companionable with me, because he knew no English. He had played from his birth with the little Kanakas on his father’s plantation, and had preferred their language and would learn no other. The family removed to America a month after I arrived in the islands, and straightway the boy began to lose his Kanaka and pick up English. By the time he was twelve he hadn’t a word of Kanaka left; the language had wholly departed from his tongue and from his comprehension. Nine years later, when he was twenty-one, I came upon the family in one of the lake towns of New York, and the mother told me about an adventure which her son had been having. By trade he was now a professional diver. A passenger boat had been caught in a storm on the lake, and had gone down, carrying her people with her. A few days later the young diver descended, with his armor on, and entered the berth-saloon of the boat, and stood at the foot of the companionway, with his hand on the rail, peering through the dim water. Presently something touched him on the shoulder, and he turned and found a dead man swaying and bobbing about him and seemingly inspecting him inquiringly. He was paralyzed with fright.</p>
+                <p>His entry had disturbed the water, and now he discerned a number of dim corpses making for him and wagging their heads and swaying their bodies like sleepy people trying to dance. His senses forsook him, and in that condition he was drawn to the surface. He was put to bed at home, and was soon very ill. During some days he had seasons of delirium which lasted several hours at a time; and while they lasted he talked Kanaka incessantly and glibly; and Kanaka only. He was still very ill, and he talked to me in that tongue; but I did not understand it, of course. The doctor-books tell us that cases like this are not uncommon. Then the doctors ought to study the cases and find out how to multiply them. Many languages and things get mislaid in a person’s head, and stay mislaid for lack of this remedy.</p>
+                <p>Several of our passengers belonged in Honolulu, and these were sent ashore; but nobody could go ashore and return. There were people on shore who were booked to go with us to Australia, but we could not receive them; to do it would cost us a quarantine-term in Sydney. They could have escaped the day before, by ship to San Francisco; but the bars had been put up, now, and they might have to wait weeks before any ship could venture to give them a passage any whither. And there were hardships for others. An elderly lady and her son, recreation-seekers from Massachusetts, had wandered westward, further and further from home, always intending to take the return track, but always concluding to go still a little further; and now here they were at anchor before Honolulu positively their last westward-bound indulgence—they had made up their minds to that—but where is the use in making up your mind in this world? It is usually a waste of time to do it. These two would have to stay with us as far as Australia. Then they could go on around the world, or go back the way they had come; the distance and the accommodations and outlay of time would be just the same, whichever of the two routes they might elect to take. Think of it: a projected excursion of five hundred miles gradually enlarged, without any elaborate degree of intention, to a possible twenty-four thousand. However, they were used to extensions by this time, and did not mind this new one much.</p>
+            </div>
+        </div><!-- /content__item -->
+        <div class="content__item">
+            <div class="content__item-intro">
+                <img class="content__item-img" src="img/6.jpg" alt="Some image" />
+                <h2 class="content__item-title">Isolation and me</h2>
+            </div>
+            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
+            <div class="content__item-text">
+                <p>When I was in the islands nearly a generation ago, I was acquainted with a young American couple who had among their belongings an attractive little son of the age of seven—attractive but not practicably companionable with me, because he knew no English. He had played from his birth with the little Kanakas on his father’s plantation, and had preferred their language and would learn no other. The family removed to America a month after I arrived in the islands, and straightway the boy began to lose his Kanaka and pick up English. By the time he was twelve he hadn’t a word of Kanaka left; the language had wholly departed from his tongue and from his comprehension. Nine years later, when he was twenty-one, I came upon the family in one of the lake towns of New York, and the mother told me about an adventure which her son had been having. By trade he was now a professional diver. A passenger boat had been caught in a storm on the lake, and had gone down, carrying her people with her. A few days later the young diver descended, with his armor on, and entered the berth-saloon of the boat, and stood at the foot of the companionway, with his hand on the rail, peering through the dim water. Presently something touched him on the shoulder, and he turned and found a dead man swaying and bobbing about him and seemingly inspecting him inquiringly. He was paralyzed with fright.</p>
+                <p>His entry had disturbed the water, and now he discerned a number of dim corpses making for him and wagging their heads and swaying their bodies like sleepy people trying to dance. His senses forsook him, and in that condition he was drawn to the surface. He was put to bed at home, and was soon very ill. During some days he had seasons of delirium which lasted several hours at a time; and while they lasted he talked Kanaka incessantly and glibly; and Kanaka only. He was still very ill, and he talked to me in that tongue; but I did not understand it, of course. The doctor-books tell us that cases like this are not uncommon. Then the doctors ought to study the cases and find out how to multiply them. Many languages and things get mislaid in a person’s head, and stay mislaid for lack of this remedy.</p>
+                <p>Several of our passengers belonged in Honolulu, and these were sent ashore; but nobody could go ashore and return. There were people on shore who were booked to go with us to Australia, but we could not receive them; to do it would cost us a quarantine-term in Sydney. They could have escaped the day before, by ship to San Francisco; but the bars had been put up, now, and they might have to wait weeks before any ship could venture to give them a passage any whither. And there were hardships for others. An elderly lady and her son, recreation-seekers from Massachusetts, had wandered westward, further and further from home, always intending to take the return track, but always concluding to go still a little further; and now here they were at anchor before Honolulu positively their last westward-bound indulgence—they had made up their minds to that—but where is the use in making up your mind in this world? It is usually a waste of time to do it. These two would have to stay with us as far as Australia. Then they could go on around the world, or go back the way they had come; the distance and the accommodations and outlay of time would be just the same, whichever of the two routes they might elect to take. Think of it: a projected excursion of five hundred miles gradually enlarged, without any elaborate degree of intention, to a possible twenty-four thousand. However, they were used to extensions by this time, and did not mind this new one much.</p>
+            </div>
+        </div><!-- /content__item -->
+        <div class="content__item">
+            <div class="content__item-intro">
+                <img class="content__item-img" src="img/7.jpg" alt="Some image" />
+                <h2 class="content__item-title">Desert races</h2>
+            </div>
+            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
+            <div class="content__item-text">
+                <p>When I was in the islands nearly a generation ago, I was acquainted with a young American couple who had among their belongings an attractive little son of the age of seven—attractive but not practicably companionable with me, because he knew no English. He had played from his birth with the little Kanakas on his father’s plantation, and had preferred their language and would learn no other. The family removed to America a month after I arrived in the islands, and straightway the boy began to lose his Kanaka and pick up English. By the time he was twelve he hadn’t a word of Kanaka left; the language had wholly departed from his tongue and from his comprehension. Nine years later, when he was twenty-one, I came upon the family in one of the lake towns of New York, and the mother told me about an adventure which her son had been having. By trade he was now a professional diver. A passenger boat had been caught in a storm on the lake, and had gone down, carrying her people with her. A few days later the young diver descended, with his armor on, and entered the berth-saloon of the boat, and stood at the foot of the companionway, with his hand on the rail, peering through the dim water. Presently something touched him on the shoulder, and he turned and found a dead man swaying and bobbing about him and seemingly inspecting him inquiringly. He was paralyzed with fright.</p>
+                <p>His entry had disturbed the water, and now he discerned a number of dim corpses making for him and wagging their heads and swaying their bodies like sleepy people trying to dance. His senses forsook him, and in that condition he was drawn to the surface. He was put to bed at home, and was soon very ill. During some days he had seasons of delirium which lasted several hours at a time; and while they lasted he talked Kanaka incessantly and glibly; and Kanaka only. He was still very ill, and he talked to me in that tongue; but I did not understand it, of course. The doctor-books tell us that cases like this are not uncommon. Then the doctors ought to study the cases and find out how to multiply them. Many languages and things get mislaid in a person’s head, and stay mislaid for lack of this remedy.</p>
+                <p>Several of our passengers belonged in Honolulu, and these were sent ashore; but nobody could go ashore and return. There were people on shore who were booked to go with us to Australia, but we could not receive them; to do it would cost us a quarantine-term in Sydney. They could have escaped the day before, by ship to San Francisco; but the bars had been put up, now, and they might have to wait weeks before any ship could venture to give them a passage any whither. And there were hardships for others. An elderly lady and her son, recreation-seekers from Massachusetts, had wandered westward, further and further from home, always intending to take the return track, but always concluding to go still a little further; and now here they were at anchor before Honolulu positively their last westward-bound indulgence—they had made up their minds to that—but where is the use in making up your mind in this world? It is usually a waste of time to do it. These two would have to stay with us as far as Australia. Then they could go on around the world, or go back the way they had come; the distance and the accommodations and outlay of time would be just the same, whichever of the two routes they might elect to take. Think of it: a projected excursion of five hundred miles gradually enlarged, without any elaborate degree of intention, to a possible twenty-four thousand. However, they were used to extensions by this time, and did not mind this new one much.</p>
+            </div>
+        </div><!-- /content__item -->
+        <div class="content__item">
+            <div class="content__item-intro">
+                <img class="content__item-img" src="img/8.jpg" alt="Some image" />
+                <h2 class="content__item-title">Transcendence</h2>
+            </div>
+            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
+            <div class="content__item-text">
+                <p>When I was in the islands nearly a generation ago, I was acquainted with a young American couple who had among their belongings an attractive little son of the age of seven—attractive but not practicably companionable with me, because he knew no English. He had played from his birth with the little Kanakas on his father’s plantation, and had preferred their language and would learn no other. The family removed to America a month after I arrived in the islands, and straightway the boy began to lose his Kanaka and pick up English. By the time he was twelve he hadn’t a word of Kanaka left; the language had wholly departed from his tongue and from his comprehension. Nine years later, when he was twenty-one, I came upon the family in one of the lake towns of New York, and the mother told me about an adventure which her son had been having. By trade he was now a professional diver. A passenger boat had been caught in a storm on the lake, and had gone down, carrying her people with her. A few days later the young diver descended, with his armor on, and entered the berth-saloon of the boat, and stood at the foot of the companionway, with his hand on the rail, peering through the dim water. Presently something touched him on the shoulder, and he turned and found a dead man swaying and bobbing about him and seemingly inspecting him inquiringly. He was paralyzed with fright.</p>
+                <p>His entry had disturbed the water, and now he discerned a number of dim corpses making for him and wagging their heads and swaying their bodies like sleepy people trying to dance. His senses forsook him, and in that condition he was drawn to the surface. He was put to bed at home, and was soon very ill. During some days he had seasons of delirium which lasted several hours at a time; and while they lasted he talked Kanaka incessantly and glibly; and Kanaka only. He was still very ill, and he talked to me in that tongue; but I did not understand it, of course. The doctor-books tell us that cases like this are not uncommon. Then the doctors ought to study the cases and find out how to multiply them. Many languages and things get mislaid in a person’s head, and stay mislaid for lack of this remedy.</p>
+                <p>Several of our passengers belonged in Honolulu, and these were sent ashore; but nobody could go ashore and return. There were people on shore who were booked to go with us to Australia, but we could not receive them; to do it would cost us a quarantine-term in Sydney. They could have escaped the day before, by ship to San Francisco; but the bars had been put up, now, and they might have to wait weeks before any ship could venture to give them a passage any whither. And there were hardships for others. An elderly lady and her son, recreation-seekers from Massachusetts, had wandered westward, further and further from home, always intending to take the return track, but always concluding to go still a little further; and now here they were at anchor before Honolulu positively their last westward-bound indulgence—they had made up their minds to that—but where is the use in making up your mind in this world? It is usually a waste of time to do it. These two would have to stay with us as far as Australia. Then they could go on around the world, or go back the way they had come; the distance and the accommodations and outlay of time would be just the same, whichever of the two routes they might elect to take. Think of it: a projected excursion of five hundred miles gradually enlarged, without any elaborate degree of intention, to a possible twenty-four thousand. However, they were used to extensions by this time, and did not mind this new one much.</p>
+            </div>
+        </div><!-- /content__item -->
+        <div class="content__item">
+            <div class="content__item-intro">
+                <img class="content__item-img" src="img/9.jpg" alt="Some image" />
+                <h2 class="content__item-title">Loosing my mind</h2>
+            </div>
+            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
+            <div class="content__item-text">
+                <p>When I was in the islands nearly a generation ago, I was acquainted with a young American couple who had among their belongings an attractive little son of the age of seven—attractive but not practicably companionable with me, because he knew no English. He had played from his birth with the little Kanakas on his father’s plantation, and had preferred their language and would learn no other. The family removed to America a month after I arrived in the islands, and straightway the boy began to lose his Kanaka and pick up English. By the time he was twelve he hadn’t a word of Kanaka left; the language had wholly departed from his tongue and from his comprehension. Nine years later, when he was twenty-one, I came upon the family in one of the lake towns of New York, and the mother told me about an adventure which her son had been having. By trade he was now a professional diver. A passenger boat had been caught in a storm on the lake, and had gone down, carrying her people with her. A few days later the young diver descended, with his armor on, and entered the berth-saloon of the boat, and stood at the foot of the companionway, with his hand on the rail, peering through the dim water. Presently something touched him on the shoulder, and he turned and found a dead man swaying and bobbing about him and seemingly inspecting him inquiringly. He was paralyzed with fright.</p>
+                <p>His entry had disturbed the water, and now he discerned a number of dim corpses making for him and wagging their heads and swaying their bodies like sleepy people trying to dance. His senses forsook him, and in that condition he was drawn to the surface. He was put to bed at home, and was soon very ill. During some days he had seasons of delirium which lasted several hours at a time; and while they lasted he talked Kanaka incessantly and glibly; and Kanaka only. He was still very ill, and he talked to me in that tongue; but I did not understand it, of course. The doctor-books tell us that cases like this are not uncommon. Then the doctors ought to study the cases and find out how to multiply them. Many languages and things get mislaid in a person’s head, and stay mislaid for lack of this remedy.</p>
+                <p>Several of our passengers belonged in Honolulu, and these were sent ashore; but nobody could go ashore and return. There were people on shore who were booked to go with us to Australia, but we could not receive them; to do it would cost us a quarantine-term in Sydney. They could have escaped the day before, by ship to San Francisco; but the bars had been put up, now, and they might have to wait weeks before any ship could venture to give them a passage any whither. And there were hardships for others. An elderly lady and her son, recreation-seekers from Massachusetts, had wandered westward, further and further from home, always intending to take the return track, but always concluding to go still a little further; and now here they were at anchor before Honolulu positively their last westward-bound indulgence—they had made up their minds to that—but where is the use in making up your mind in this world? It is usually a waste of time to do it. These two would have to stay with us as far as Australia. Then they could go on around the world, or go back the way they had come; the distance and the accommodations and outlay of time would be just the same, whichever of the two routes they might elect to take. Think of it: a projected excursion of five hundred miles gradually enlarged, without any elaborate degree of intention, to a possible twenty-four thousand. However, they were used to extensions by this time, and did not mind this new one much.</p>
+            </div>
+        </div><!-- /content__item -->
+        <div class="content__item">
+            <div class="content__item-intro">
+                <img class="content__item-img" src="img/10.jpg" alt="Some image" />
+                <h2 class="content__item-title">Holding your breath</h2>
+            </div>
+            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
+            <div class="content__item-text">
+                <p>When I was in the islands nearly a generation ago, I was acquainted with a young American couple who had among their belongings an attractive little son of the age of seven—attractive but not practicably companionable with me, because he knew no English. He had played from his birth with the little Kanakas on his father’s plantation, and had preferred their language and would learn no other. The family removed to America a month after I arrived in the islands, and straightway the boy began to lose his Kanaka and pick up English. By the time he was twelve he hadn’t a word of Kanaka left; the language had wholly departed from his tongue and from his comprehension. Nine years later, when he was twenty-one, I came upon the family in one of the lake towns of New York, and the mother told me about an adventure which her son had been having. By trade he was now a professional diver. A passenger boat had been caught in a storm on the lake, and had gone down, carrying her people with her. A few days later the young diver descended, with his armor on, and entered the berth-saloon of the boat, and stood at the foot of the companionway, with his hand on the rail, peering through the dim water. Presently something touched him on the shoulder, and he turned and found a dead man swaying and bobbing about him and seemingly inspecting him inquiringly. He was paralyzed with fright.</p>
+                <p>His entry had disturbed the water, and now he discerned a number of dim corpses making for him and wagging their heads and swaying their bodies like sleepy people trying to dance. His senses forsook him, and in that condition he was drawn to the surface. He was put to bed at home, and was soon very ill. During some days he had seasons of delirium which lasted several hours at a time; and while they lasted he talked Kanaka incessantly and glibly; and Kanaka only. He was still very ill, and he talked to me in that tongue; but I did not understand it, of course. The doctor-books tell us that cases like this are not uncommon. Then the doctors ought to study the cases and find out how to multiply them. Many languages and things get mislaid in a person’s head, and stay mislaid for lack of this remedy.</p>
+                <p>Several of our passengers belonged in Honolulu, and these were sent ashore; but nobody could go ashore and return. There were people on shore who were booked to go with us to Australia, but we could not receive them; to do it would cost us a quarantine-term in Sydney. They could have escaped the day before, by ship to San Francisco; but the bars had been put up, now, and they might have to wait weeks before any ship could venture to give them a passage any whither. And there were hardships for others. An elderly lady and her son, recreation-seekers from Massachusetts, had wandered westward, further and further from home, always intending to take the return track, but always concluding to go still a little further; and now here they were at anchor before Honolulu positively their last westward-bound indulgence—they had made up their minds to that—but where is the use in making up your mind in this world? It is usually a waste of time to do it. These two would have to stay with us as far as Australia. Then they could go on around the world, or go back the way they had come; the distance and the accommodations and outlay of time would be just the same, whichever of the two routes they might elect to take. Think of it: a projected excursion of five hundred miles gradually enlarged, without any elaborate degree of intention, to a possible twenty-four thousand. However, they were used to extensions by this time, and did not mind this new one much.</p>
+            </div>
+        </div><!-- /content__item -->
+        <div class="content__item">
+            <div class="content__item-intro">
+                <img class="content__item-img" src="img/11.jpg" alt="Some image" />
+                <h2 class="content__item-title">Making the best of it</h2>
+            </div>
+            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
+            <div class="content__item-text">
+                <p>When I was in the islands nearly a generation ago, I was acquainted with a young American couple who had among their belongings an attractive little son of the age of seven—attractive but not practicably companionable with me, because he knew no English. He had played from his birth with the little Kanakas on his father’s plantation, and had preferred their language and would learn no other. The family removed to America a month after I arrived in the islands, and straightway the boy began to lose his Kanaka and pick up English. By the time he was twelve he hadn’t a word of Kanaka left; the language had wholly departed from his tongue and from his comprehension. Nine years later, when he was twenty-one, I came upon the family in one of the lake towns of New York, and the mother told me about an adventure which her son had been having. By trade he was now a professional diver. A passenger boat had been caught in a storm on the lake, and had gone down, carrying her people with her. A few days later the young diver descended, with his armor on, and entered the berth-saloon of the boat, and stood at the foot of the companionway, with his hand on the rail, peering through the dim water. Presently something touched him on the shoulder, and he turned and found a dead man swaying and bobbing about him and seemingly inspecting him inquiringly. He was paralyzed with fright.</p>
+                <p>His entry had disturbed the water, and now he discerned a number of dim corpses making for him and wagging their heads and swaying their bodies like sleepy people trying to dance. His senses forsook him, and in that condition he was drawn to the surface. He was put to bed at home, and was soon very ill. During some days he had seasons of delirium which lasted several hours at a time; and while they lasted he talked Kanaka incessantly and glibly; and Kanaka only. He was still very ill, and he talked to me in that tongue; but I did not understand it, of course. The doctor-books tell us that cases like this are not uncommon. Then the doctors ought to study the cases and find out how to multiply them. Many languages and things get mislaid in a person’s head, and stay mislaid for lack of this remedy.</p>
+                <p>Several of our passengers belonged in Honolulu, and these were sent ashore; but nobody could go ashore and return. There were people on shore who were booked to go with us to Australia, but we could not receive them; to do it would cost us a quarantine-term in Sydney. They could have escaped the day before, by ship to San Francisco; but the bars had been put up, now, and they might have to wait weeks before any ship could venture to give them a passage any whither. And there were hardships for others. An elderly lady and her son, recreation-seekers from Massachusetts, had wandered westward, further and further from home, always intending to take the return track, but always concluding to go still a little further; and now here they were at anchor before Honolulu positively their last westward-bound indulgence—they had made up their minds to that—but where is the use in making up your mind in this world? It is usually a waste of time to do it. These two would have to stay with us as far as Australia. Then they could go on around the world, or go back the way they had come; the distance and the accommodations and outlay of time would be just the same, whichever of the two routes they might elect to take. Think of it: a projected excursion of five hundred miles gradually enlarged, without any elaborate degree of intention, to a possible twenty-four thousand. However, they were used to extensions by this time, and did not mind this new one much.</p>
+            </div>
+        </div><!-- /content__item -->
+        <div class="content__item">
+            <div class="content__item-intro">
+                <img class="content__item-img" src="img/12.jpg" alt="Some image" />
+                <h2 class="content__item-title">Haunted Blessings</h2>
+            </div>
+            <h3 class="content__item-subtitle">"How I learned to cherish life after a trip to hell"</h3>
+            <div class="content__item-text">
+                <p>When I was in the islands nearly a generation ago, I was acquainted with a young American couple who had among their belongings an attractive little son of the age of seven—attractive but not practicably companionable with me, because he knew no English. He had played from his birth with the little Kanakas on his father’s plantation, and had preferred their language and would learn no other. The family removed to America a month after I arrived in the islands, and straightway the boy began to lose his Kanaka and pick up English. By the time he was twelve he hadn’t a word of Kanaka left; the language had wholly departed from his tongue and from his comprehension. Nine years later, when he was twenty-one, I came upon the family in one of the lake towns of New York, and the mother told me about an adventure which her son had been having. By trade he was now a professional diver. A passenger boat had been caught in a storm on the lake, and had gone down, carrying her people with her. A few days later the young diver descended, with his armor on, and entered the berth-saloon of the boat, and stood at the foot of the companionway, with his hand on the rail, peering through the dim water. Presently something touched him on the shoulder, and he turned and found a dead man swaying and bobbing about him and seemingly inspecting him inquiringly. He was paralyzed with fright.</p>
+                <p>His entry had disturbed the water, and now he discerned a number of dim corpses making for him and wagging their heads and swaying their bodies like sleepy people trying to dance. His senses forsook him, and in that condition he was drawn to the surface. He was put to bed at home, and was soon very ill. During some days he had seasons of delirium which lasted several hours at a time; and while they lasted he talked Kanaka incessantly and glibly; and Kanaka only. He was still very ill, and he talked to me in that tongue; but I did not understand it, of course. The doctor-books tell us that cases like this are not uncommon. Then the doctors ought to study the cases and find out how to multiply them. Many languages and things get mislaid in a person’s head, and stay mislaid for lack of this remedy.</p>
+                <p>Several of our passengers belonged in Honolulu, and these were sent ashore; but nobody could go ashore and return. There were people on shore who were booked to go with us to Australia, but we could not receive them; to do it would cost us a quarantine-term in Sydney. They could have escaped the day before, by ship to San Francisco; but the bars had been put up, now, and they might have to wait weeks before any ship could venture to give them a passage any whither. And there were hardships for others. An elderly lady and her son, recreation-seekers from Massachusetts, had wandered westward, further and further from home, always intending to take the return track, but always concluding to go still a little further; and now here they were at anchor before Honolulu positively their last westward-bound indulgence—they had made up their minds to that—but where is the use in making up your mind in this world? It is usually a waste of time to do it. These two would have to stay with us as far as Australia. Then they could go on around the world, or go back the way they had come; the distance and the accommodations and outlay of time would be just the same, whichever of the two routes they might elect to take. Think of it: a projected excursion of five hundred miles gradually enlarged, without any elaborate degree of intention, to a possible twenty-four thousand. However, they were used to extensions by this time, and did not mind this new one much.</p>
+            </div>
+        </div><!-- /content__item -->
+        <button class="content__close">Close</button>
+        <svg class="content__indicator icon icon--caret"><use xlink:href="#icon-caret"></use></svg>
     </div>
 </main>
-<script src="js/anime.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/charming.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
 <script src="js/demo.js"></script>
+<script src="js/demo-menu.js"></script>
 </body>
 </html>
